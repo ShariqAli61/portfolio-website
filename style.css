@@ -1,0 +1,94 @@
+/* Reset some default browser styles */
+body, h1, h2, h3, p, ul, li, img {
+    margin: 0;
+    padding: 0;
+}
+
+/* Set a background color and font for the entire page */
+body {
+    font-family: Arial, sans-serif;
+    background-color: lightgrey;
+    color: #333;
+    line-height: 1.6;
+}
+
+/* Style the header section */
+header {
+    text-align: center;
+    padding: 50px 0;
+    background-color: #333;
+    
+    color: #fff;
+}
+
+header h1 {
+    font-size: 36px;
+    margin-bottom: 10px;
+}
+
+/* Style the about section */
+#about {
+    text-align: center;
+    padding: 40px 0;
+}
+
+#about img {
+    max-width: 150px;
+    border-radius: 50%;
+}
+
+/* Style the skills section */
+#skills {
+    text-align: center;
+    padding: 40px 0;
+}
+
+#skills ul {
+    list-style: none;
+}
+
+#skills li {
+    display: inline;
+    margin-right: 20px;
+}
+
+/* Style the projects section */
+#projects {
+    text-align: center;
+    padding: 40px 0;
+}
+
+.project {
+    margin-bottom: 30px;
+}
+
+.project img {
+    max-width: 40%;
+    border-radius: 5px;
+}
+
+/* Style the resume section */
+#resume {
+    text-align: center;
+    padding: 40px 0;
+}
+
+#resume a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+}
+
+/* Style the contact section */
+#contact {
+    text-align: center;
+    padding: 40px 0;
+}
+
+/* Style the footer */
+footer {
+    text-align: center;
+    background-color: #333;
+    color: #fff;
+    padding: 10px 0;
+}
